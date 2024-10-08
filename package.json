@@ -2,17 +2,11 @@
   "name": "ingredish",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js", // Update this to your actual main file
+  "main": "script.js",
   "dependencies": {
     "dotenv": "^16.4.5"
   },
-  "devDependencies": {},
   "scripts": {
-    "start": "node script.js", // Define the start script
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "start": "node script.js"
+  }
 }
-
