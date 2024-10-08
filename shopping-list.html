@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List - IngreDish</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">IngreDish</div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="favorites.html">Favorites</a></li>
+                    <li><a href="shopping-list.html">Shopping List</a></li>
+                    <li><a href="settings.html">Settings</a></li>
+                    <li><a href="#" id="login-link">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Shopping List</h1>
+            <div id="message-container"></div>
+            <div id="login-message" class="login-message">
+                Please login or register an account to access your shopping list.
+            </div>
+            <div id="shopping-list-container" style="display: none;">
+                <ul id="shopping-list"></ul>
+                <div id="add-item-form">
+                    <input type="text" id="new-item" placeholder="Add new item">
+                    <button id="add-item-btn">Add Item</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 IngreDish. All rights reserved.</p>
+    </footer>
+
+    <script src="shopping-list.js"></script>
+</body>
+</html>
+

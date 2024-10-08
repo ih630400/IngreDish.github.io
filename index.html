@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IngreDish - Find Recipes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">IngreDish</div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="favorites.html">Favorites</a></li>
+                    <li><a href="shopping-list.html">Shopping List</a></li>
+                    <li><a href="settings.html">Settings</a></li>
+                    <li><a href="#" id="login-link">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Find Recipes</h1>
+            <div id="message-container"></div>
+            <div id="search-container">
+                <input type="text" id="ingredient-input" placeholder="Enter ingredients">
+                <select id="diet-filter">
+                    <option value="">Select Diet</option>
+                <option value="">Any Diet</option>
+                <option value="balanced">Balanced</option>
+                <option value="high-protein">High-Protein</option>
+                <option value="low-fat">Low-Fat</option>
+                <option value="low-carb">Low-Carb</option>
+            </select>
+            <select id="health-filter">
+                <option value="">Any Health</option>
+                <option value="vegan">Vegan</option>
+                <option value="vegetarian">Vegetarian</option>
+                <option value="gluten-free">Gluten-Free</option>
+                <option value="dairy-free">Dairy-Free</option>
+                <option value="peanut-free">Peanut-Free</option>
+                <option value="tree-nut-free">Tree Nut-Free</option>
+            </select>
+            <select id="cuisine-filter">
+                <option value="">Any Cuisine</option>
+                <option value="american">American</option>
+                <option value="asian">Asian</option>
+                <option value="british">British</option>
+                <option value="caribbean">Caribbean</option>
+                <option value="central-europe">Central Europe</option>
+                <option value="chinese">Chinese</option>
+                <option value="french">French</option>
+                <option value="indian">Indian</option>
+                <option value="italian">Italian</option>
+                <option value="japanese">Japanese</option>
+                <option value="mediterranean">Mediterranean</option>
+                <option value="mexican">Mexican</option>
+                <option value="middle-eastern">Middle Eastern</option>
+            </select>
+            <select id="meal-type-filter">
+                <option value="">Any Meal Type</option>
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+                <option value="snack">Snack</option>
+            </select>
+        </div>
+
+       <button id="search-btn">Search</button>
+            </div>
+            <div id="recipe-results" class="recipe-grid"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 IngreDish. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
