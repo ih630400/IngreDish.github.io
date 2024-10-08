@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const mealTypeFilter = document.getElementById('meal-type-filter');
 
 APP_ID = '883701c6';     
-APP_KEY = '73b26e8ac44dd9f26abc9b72e9f0655d'
+APP_KEY = '73b26e8ac44dd9f26abc9b72e9f0655d';
 
     function showMessage(message, type) {
         messageContainer.innerHTML = `<div class="message ${type}">${message}</div>`;
