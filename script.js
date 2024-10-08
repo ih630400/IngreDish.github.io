@@ -8,9 +8,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const healthFilter = document.getElementById('health-filter');
     const cuisineFilter = document.getElementById('cuisine-filter');
     const mealTypeFilter = document.getElementById('meal-type-filter');
-    require('dotenv').config()
-        console.log(process.env);
-
+APP_ID = '883701c6';     
+APP_KEY = '73b26e8ac44dd9f26abc9b72e9f0655d'
 
     function showMessage(message, type) {
         messageContainer.innerHTML = `<div class="message ${type}">${message}</div>`;
