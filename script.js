@@ -9,8 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const cuisineFilter = document.getElementById('cuisine-filter');
     const mealTypeFilter = document.getElementById('meal-type-filter');
     require('dotenv').config()
-
-console.log(process.env);
+        console.log(process.env);
 
 
     function showMessage(message, type) {
