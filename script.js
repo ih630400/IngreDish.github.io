@@ -8,23 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const healthFilter = document.getElementById('health-filter');
     const cuisineFilter = document.getElementById('cuisine-filter');
     const mealTypeFilter = document.getElementById('meal-type-filter');
-    const express = require('express');
-const path = require('path');
-const app = express();
-const PORT = process.env.PORT || 3000;
+    require('dotenv').config()
 
-app.use(express.static(path.join(__dirname, 'public')));
+console.log(process.env);
 
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
-});
-
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
-
-APP_ID = '883701c6';     
-APP_KEY = '73b26e8ac44dd9f26abc9b72e9f0655d'
 
     function showMessage(message, type) {
         messageContainer.innerHTML = `<div class="message ${type}">${message}</div>`;
