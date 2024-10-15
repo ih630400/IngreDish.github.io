@@ -1,4 +1,8 @@
 IngreDish: A Recipe & Ingredient Management Application
+
+video:
+
+Description:
 IngreDish is a web application designed to simplify recipe management, ingredient tracking, and shopping list creation. Whether you're a home chef looking for an organized way to store your recipes or someone who wants to quickly generate shopping lists, this project offers a user-friendly and responsive interface to manage your kitchen needs effectively.
 
 Purpose and Vision
